@@ -1,0 +1,146 @@
+html body {
+    background-color: black;
+}
+
+.navbar-bg-hitam {
+    background-color: rgb(0, 0, 0);
+}
+
+.jumbotron-bg-hitam {
+    background-color: black;
+}
+
+.hr-putih {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+}
+
+.kalimat {
+    margin-top: 70px;
+}
+
+#bawah .jarak-bwh {
+    margin-top: 50px;
+}
+
+.figure {
+    transform: scale(1.0);
+    transition: .3s;
+    opacity: 0.5;
+}
+
+.figure:hover {
+    transform: scale(1.04);
+    transition: .3s;
+    opacity: 1.0;
+}
+
+.card {
+    opacity: 0.5;
+    transition: .3s;
+}
+
+.card:hover {
+    opacity: 1.0;
+    transition: .3s;
+}
+
+.btn-transparan {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.btn-responsive {
+    width: auto;
+}
+
+.dropdown-bg {
+    background-color: #dc3545;
+}
+
+.dropdown-item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+.figure {
+    position: relative;
+}
+
+.jenis {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.badge-hitam {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+.modal-black {
+    background-color: rgb(22, 22, 22);
+}
+
+.modal-content {
+    border: none;
+}
+
+.close {
+    color: rgb(179, 179, 179);
+}
+
+.close:hover {
+    color: white;
+}
+
+@media (max-width: 767.98px) {
+    .kalimat {
+        margin-top: 10px;
+    }
+    
+    .btn-responsive {
+        width: 100%;
+    }
+
+    .figure {
+        transform: scale(1.0);
+        transition: none;
+        opacity: 1.0;
+    }
+    
+    .figure:hover {
+        transform: scale(1.04);
+        transition: none;
+        opacity: 1.0;
+    }
+    
+    .card {
+        opacity: 1.0;
+        transition: none;
+    }
+    
+    .card:hover {
+        opacity: 1.0;
+        transition: none;
+    }
+
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+    }
+
+    
+}
